@@ -1,0 +1,1134 @@
+*{
+    margin: 0;
+}
+.nav{
+    width: 100%;
+   
+    height: 80px;
+
+    
+   
+
+}
+.logo{
+    float: left;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.search{
+    float: left;
+    margin-left: 205px;
+    padding: 20px ;
+}
+
+form.example input[type=text] {
+   
+    width: 660px;
+    height: 35px;
+    border: 1px solid rgb(0, 0, 0);
+    background: #f1f1f1;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+    font-size: large;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    color: #333333;
+
+    
+  }
+  
+  form.example button {
+    
+    
+    width: 40px;
+    height: 38px;
+    background: #80c342;
+    color: #5a4848;
+    border: 1px solid rgb(0, 0, 0);
+    border-left: none;
+    cursor: pointer;
+    font-size: larger;
+    float: left;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+ 
+  
+  form.example input[type=text]:focus{
+    outline: none;
+  }
+  form.example button:focus{
+    outline: none;
+  }
+  .icons{
+    padding: 10px;
+  
+    float: left;
+  }
+  svg{
+    padding:10px;
+    cursor: pointer;
+
+  }
+  .menu{
+    width: 100%;
+    height: 65px;
+    background: rgb(211, 210, 210);
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+  
+
+  }
+  .menu ul{
+   
+    display: flex;
+    align-items: center;
+ 
+    cursor: pointer;
+    
+  
+    
+  }
+ .menu ul li{
+    list-style: none;
+    padding-left: 33px;
+    font-size: 14px;
+    font-weight: 400;
+   color: rgb(122 122 122);
+   font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+   
+    
+    
+ }
+ .menu ul li:hover{
+    color: #80c342;
+
+ }
+ .img{
+  padding: 22px;
+  width: 97%;
+  border-radius: 3cap;
+
+ }
+ .chat{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    z-index: 1;
+   
+ }
+ .nav svg:hover{
+    background: #80c342;
+    border-radius: 100%;
+    fill: white;
+    transform:scale(0.8);
+     
+
+ }
+ .dot{
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+ }
+ .dot button{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid;
+    background: #dedcdc;
+    cursor: pointer;
+ }
+ .free-shipping{
+  width: 97%;
+    text-align: center;
+    background: #e0dfdf;
+    margin-left: 20px;
+    border-radius: 5px;
+ }
+ .free-shipping h4{
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: medium;
+  padding: 12px;
+  color: #484747;
+ }
+ .register{
+  
+  background: #e0dfdf;
+   margin-top: 15px; 
+   margin-left: 20px;
+  align-items: center; 
+  width: 64%; 
+  padding-left: 500px; 
+  display: flex;
+  border-radius: 5px;
+ }
+ .register h4{
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: medium;
+  padding: 12px;
+  color: #0d0d0d;
+  cursor: pointer;
+  
+ }
+ .register button{
+  border-radius: 8px;
+    height: 25px;
+    cursor: pointer;
+    width: 125px;
+    color: black;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+
+ }
+ .laptops{
+  margin: 25px;
+  cursor: pointer;
+ }
+ .laptops img{
+  height: 280px;
+  width: 465px;
+  padding: 10px;
+ }
+ .featured-products h3{
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 26px;
+  color: #6d6c6c;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-bottom: 10px;
+ }
+
+ .featured-products hr{
+  width: 85%;
+  margin-left: 30px;
+ }
+ .featured-products .prev,.featured-products .next {
+  cursor: pointer;
+  position: absolute;
+  top: 1533px;
+  padding: 10px 18px;
+  color: #706c6c;
+  background: rgb(255 255 255 / 100%);
+  font-size: 20px;
+  border: 1px solid #c2bebe;
+
+  
+  
+}
+.featured-products .next {
+  right: 40px;
+  border-radius: 100%;
+}
+.featured-products .prev{
+  right: 110px;
+  border-radius: 100%;
+}
+ 
+.fp-pic img{
+  width: 350px;
+  cursor: pointer; 
+  padding-left: 20px;
+}
+.fp-text{
+  display: flex;
+}
+.fp1-text{
+  
+  width: 320px;
+  height: 230px;
+  margin-left: 40px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.fp1-text p{
+  font-weight: 700;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  cursor: pointer;
+  color: #48484a;
+
+}
+.fp1-text h5{
+  text-decoration: line-through;
+  color: #b8b4b4;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 900;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
+.fp1-text h4{
+  padding-top: 10px;
+  font-size: 20px;;
+  font-weight: 900;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.fp1-text svg{
+  position: absolute;
+  right: 8px;
+  bottom: 110px;
+  fill: #676565;
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 100px;
+}
+.fp1-text svg:hover{
+  fill: #ffffff;
+  background: #80c342;
+}
+.fp1-text button{
+  width: 15px;
+  background: #c8c2c2;
+  height: 15px;
+  display: flex;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+.fp1-text button:hover{
+  background: #80c342;
+}
+.fp1-text h3{
+  position: absolute;
+  cursor: pointer;
+  left: 25px;
+  bottom: 85px;
+  font-size: 15px;
+  color:#c8c2c2 ;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+
+
+}
+.fp1-text h3:hover{
+  color: #80c342;
+
+}
+.fp1-text h2{
+  position: absolute;
+    left: 25px;
+    cursor: pointer;
+    bottom: 54px;
+    font-size: 15px;
+    color:#c8c2c2 ;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+
+
+}
+.fp1-text h2:hover{
+  color: #80c342;
+
+}
+.fp2-text{
+  
+  width: 320px;
+  height: 230px;
+  margin-left: 55px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.fp2-text p{
+  font-weight: 700;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  color: #48484a;
+  cursor: pointer;
+
+}
+.fp2-text h5{
+  text-decoration: line-through;
+  color: #b8b4b4;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 900;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
+.fp2-text h4{
+  padding-top: 10px;
+  font-size: 20px;;
+  font-weight: 900;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.fp2-text svg{
+  position: absolute;
+  right: 8px;
+  bottom: 110px;
+  fill: #676565;
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 100px;
+}
+.fp2-text svg:hover{
+  fill: #ffffff;
+  background: #80c342;
+}
+.fp2-text button{
+  width: 15px;
+  background: #c8c2c2;
+  height: 15px;
+  display: flex;
+  margin-top: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.fp2-text button:hover{
+  background: #80c342;
+}
+.fp2-text h3{
+  position: absolute;
+  left: 25px;
+  bottom: 85px;
+  font-size: 15px;
+  color:#c8c2c2 ;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+
+
+}
+.fp2-text h3:hover{
+  color: #80c342;
+
+}
+.fp2-text h2{
+  position: absolute;
+    left: 25px;
+    bottom: 54px;
+    font-size: 15px;
+    color:#c8c2c2 ;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+
+
+}
+.fp2-text h2:hover{
+  color: #80c342;
+
+}
+.fp3-text{
+  
+  width: 320px;
+  height: 230px;
+  margin-left: 55px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.fp3-text p{
+  font-weight: 700;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  cursor: pointer;
+  color: #48484a;
+
+}
+.fp3-text h5{
+  text-decoration: line-through;
+  color: #b8b4b4;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 900;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
+.fp3-text h4{
+  padding-top: 10px;
+  font-size: 20px;;
+  font-weight: 900;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.fp3-text svg{
+  position: absolute;
+  right: 8px;
+  bottom: 110px;
+  fill: #676565;
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 100px;
+}
+.fp3-text svg:hover{
+  fill: #ffffff;
+  background: #80c342;
+}
+.fp3-text button{
+  width: 15px;
+  background: #c8c2c2;
+  height: 15px;
+  display: flex;
+  margin-top: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.fp3-text button:hover{
+  background: #80c342;
+}
+.fp3-text h3{
+  position: absolute;
+  left: 25px;
+  bottom: 85px;
+  font-size: 15px;
+  color:#c8c2c2 ;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+
+
+}
+.fp3-text h3:hover{
+  color: #80c342;
+
+}
+.fp3-text h2{
+  position: absolute;
+    left: 25px;
+    bottom: 54px;
+    font-size: 15px;
+    color:#c8c2c2 ;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+
+
+}
+.fp3-text h2:hover{
+  color: #80c342;
+
+}
+.fp4-text{
+ 
+  width: 320px;
+  height: 230px;
+  margin-left: 55px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.fp4-text p{
+  font-weight: 700;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  color: #48484a;
+  cursor: pointer;
+
+}
+.fp4-text h5{
+  text-decoration: line-through;
+  color: #b8b4b4;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 900;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
+.fp4-text h4{
+  padding-top: 10px;
+  font-size: 20px;;
+  font-weight: 900;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.fp4-text h6{
+  position: absolute;
+  right: 0px;
+  bottom: 110px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.fp4-text button{
+  width: 15px;
+  background: #c8c2c2;
+  height: 15px;
+  display: flex;
+  margin-top: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.fp4-text button:hover{
+  background: #80c342;
+}
+.fp4-text h3{
+  position: absolute;
+  left: 25px;
+  bottom: 85px;
+  font-size: 15px;
+  color:#c8c2c2 ;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+
+
+}
+.fp4-text h3:hover{
+  color: #80c342;
+
+}
+.fp4-text h2{
+  position: absolute;
+    left: 25px;
+    bottom: 54px;
+    font-size: 15px;
+    color:#c8c2c2 ;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+
+
+}
+.fp4-text h2:hover{
+  color: #80c342;
+
+}
+.best-gaming h3{
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 26px;
+  color: #6d6c6c;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-bottom: 10px;
+ }
+
+ .best-gaming hr{
+  width: 85%;
+  margin-left: 30px;
+ }
+ .bg-pic img{
+  width: 350px;
+  cursor: pointer; 
+  padding-left: 20px;
+}
+.bg-text{
+  display: flex;
+}
+.bg1-text{
+ 
+  width: 320px;
+  height: 230px;
+  margin-left: 55px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.bg1-text p{
+  font-weight: 700;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  cursor: pointer;
+  color: #48484a;
+
+}
+.bg1-text h5{
+  text-decoration: line-through;
+  color: #b8b4b4;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 900;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
+.bg1-text h4{
+  padding-top: 10px;
+  font-size: 20px;;
+  font-weight: 900;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.bg1-text h6{
+  position: absolute;
+  right: 0px;
+  bottom: 110px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.bg1-text button{
+  width: 15px;
+  background: #c8c2c2;
+  height: 15px;
+  display: flex;
+  margin-top: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.bg1-text button:hover{
+  background: #80c342;
+}
+.bg1-text h3{
+  position: absolute;
+  left: 25px;
+  bottom: 85px;
+  font-size: 15px;
+  color:#c8c2c2 ;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+
+
+}
+.bg1-text h3:hover{
+  color: #80c342;
+
+}
+.bg1-text h2{
+  position: absolute;
+    left: 25px;
+    bottom: 54px;
+    font-size: 15px;
+    color:#c8c2c2 ;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+
+
+}
+.bg1-text h2:hover{
+  color: #80c342;
+
+}
+.bg2-text{
+  
+  width: 320px;
+  height: 230px;
+  margin-left: 55px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.bg2-text p{
+  font-weight: 700;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  cursor: pointer;
+  color: #48484a;
+
+}
+.bg2-text h5{
+  text-decoration: line-through;
+  color: #b8b4b4;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 900;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
+.bg2-text h4{
+  padding-top: 10px;
+  font-size: 20px;;
+  font-weight: 900;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.bg2-text svg{
+  position: absolute;
+  right: 8px;
+  bottom: 110px;
+  fill: #676565;
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 100px;
+}
+.bg2-text svg:hover{
+  fill: #ffffff;
+  background: #80c342;
+}
+.bg2-text button{
+  width: 15px;
+  background: #c8c2c2;
+  height: 15px;
+  display: flex;
+  margin-top: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.bg2-text button:hover{
+  background: #80c342;
+}
+.bg2-text h3{
+  position: absolute;
+  left: 25px;
+  bottom: 85px;
+  font-size: 15px;
+  color:#c8c2c2 ;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+
+
+}
+.bg2-text h3:hover{
+  color: #80c342;
+
+}
+.bg2-text h2{
+  position: absolute;
+    left: 25px;
+    bottom: 54px;
+    font-size: 15px;
+    color:#c8c2c2 ;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+
+
+}
+.bg2-text h2:hover{
+  color: #80c342;
+
+}
+.bg3-text{
+  
+  width: 320px;
+  height: 230px;
+  margin-left: 55px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.bg3-text p{
+  font-weight: 700;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  cursor: pointer;
+  text-align: center;
+  color: #48484a;
+
+}
+.bg3-text h5{
+  text-decoration: line-through;
+  color: #b8b4b4;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 900;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
+.bg3-text h4{
+  padding-top: 10px;
+  font-size: 20px;;
+  font-weight: 900;
+  color: #80c342;
+  
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+}
+.bg3-text svg{
+  position: absolute;
+  right: 8px;
+  bottom: 110px;
+  fill: #676565;
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 100px;
+}
+.bg3-text svg:hover{
+  fill: #ffffff;
+  background: #80c342;
+}
+.bg3-text button{
+  width: 15px;
+  background: #c8c2c2;
+  height: 15px;
+  display: flex;
+  margin-top: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.bg3-text button:hover{
+  background: #80c342;
+}
+.bg3-text h3{
+  position: absolute;
+  left: 25px;
+  bottom: 85px;
+  font-size: 15px;
+  color:#c8c2c2 ;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+
+
+}
+.bg3-text h3:hover{
+  color: #80c342;
+
+}
+.bg3-text h2{
+  position: absolute;
+    left: 25px;
+    bottom: 54px;
+    font-size: 15px;
+    color:#c8c2c2 ;
+    font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+
+
+}
+.bg3-text h2:hover{
+  color: #80c342;
+
+}
+
+ .footer{
+  background: #333333;
+  width: 100%;
+  height: 500px;
+ }
+ .contactus{
+  width: 96%;
+  float: left;
+  margin-left: 50px;
+ }
+ .contactus h4{
+
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 600;
+  padding: 40px 130px;
+  color: #19a119;
+  font-size: larger;
+
+ }
+ .about{
+  float: left;
+  margin-left: 50px;
+ }
+ .about h5{
+  padding-left: 130px;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: #ffff;
+
+ }
+ 
+ .about ul{
+  padding-left:130px ;
+  padding-top: 10px;
+  list-style: none;
+  cursor: pointer;
+  line-height: 30px;
+  color: rgb(141, 141, 141);
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+ }.support{
+  float: left;
+ }
+ .support h5{
+  padding-left: 90px;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: #ffff;
+
+ }
+ .support ul{
+  padding-left:90px ;
+  padding-top: 10px;
+  list-style: none;
+  cursor: pointer;
+  line-height: 30px;
+  color: rgb(141, 141, 141);
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+
+ }
+ .aceronline{
+  float: left;
+ }
+ .aceronline h5{
+  padding-left: 90px;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: #ffff;
+ }
+ .aceronline ul{
+  padding-left:90px ;
+  padding-top: 10px;
+  list-style: none;
+  cursor: pointer;
+  line-height: 30px;
+  color: rgb(141, 141, 141);
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+ }
+ .account{
+  float: left;
+ }
+ .account h5{
+  padding-left: 50px;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: #ffff;
+ }
+ .account ul{
+  padding-left:50px ;
+  padding-top: 10px;
+  list-style: none;
+  cursor: pointer;
+  line-height: 30px;
+  color: rgb(141, 141, 141);
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+
+ }
+ .footer ul li:hover{
+  text-decoration: underline;
+
+ }
+ .stay{
+  float: left;
+  padding-left: 30px;
+ }
+ .stay h5{
+ 
+  font-size: large;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+  color: #ffff;
+  font-weight: bold;
+  padding-bottom: 20px;
+
+ }
+ .fa-facebook {
+  background: #ffffff;
+  width: 40px;
+  height: 20px;
+  padding: 10px 3px;
+  border-radius: 100%;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+}
+.fa-twitter {
+  background: #ffffff;
+  width: 40px;
+  height: 20px;
+  padding: 10px 3px;
+  border-radius: 100%;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+}
+.fa-youtube {
+  background: #ffffff;
+  width: 40px;
+  height: 20px;
+  padding: 10px 3px;
+  border-radius: 100%;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+}
+.fa-instagram {
+  background: #ffffff;
+  width: 40px;
+  height: 20px;
+  padding: 10px 3px;
+  border-radius: 100%;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+}
+.fa-facebook:hover{
+  
+  color: #19a119;
+  
+  
+}
+.fa-twitter:hover{
+  color: #19a119;
+}
+.fa-instagram:hover{
+  color: #19a119;
+}
+.fa-youtube:hover{
+  color: #19a119;
+}
+.rights {
+  width: 400px;
+  padding: 0px 80px;
+  position: relative;
+  left: 0;
+  bottom: 50px;
+ float: left;
+}.rights h6{
+  color: rgb(141, 141, 141);
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+
+}
+.footer-logo{
+  float: left;
+}
+.footer-logo img{
+  height: 20px;
+  width: 60px;
+  position: relative;
+  bottom: 50px;
+  left: 200px;
+  cursor: pointer;
+
+}.footer-logo h3{
+  color: #ffff;
+  position: relative;
+  bottom: 80px;
+  left: 540px;
+  font-weight: 200;
+  font-size: medium;
+  cursor: pointer;
+  font-family: 'Noto Sans', 'Trebuchet MS', Arial, sans-serif;
+
+}
